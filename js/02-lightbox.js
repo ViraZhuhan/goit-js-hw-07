@@ -33,8 +33,7 @@ function onModalImgClick(e) {
     captionPosition: "bottom",
     captionDelay: 250,
   });
+  gallery.on("show.simplelightbox");
 }
 
-document.getElementsByTagName("img").ondragstart = function () {
-  return false;
-};
+
